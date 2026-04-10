@@ -1,0 +1,26 @@
+[
+  {
+    "id": "user_001",
+    "name": "Anika Rao",
+    "avgAmount": 1850,
+    "behaviorBaseline": {
+      "typingDelay": 215,
+      "mouseVelocity": 1.18
+    },
+    "trustedDevices": ["device_iphone_14", "device_macbook_air"],
+    "usualLocations": ["Chennai", "Bengaluru"],
+    "preferredHours": [8, 9, 10, 11, 12, 13, 18, 19, 20]
+  },
+  {
+    "id": "user_002",
+    "name": "Raghav S",
+    "avgAmount": 2600,
+    "behaviorBaseline": {
+      "typingDelay": 235,
+      "mouseVelocity": 1.05
+    },
+    "trustedDevices": ["device_pixel_8"],
+    "usualLocations": ["Hyderabad"],
+    "preferredHours": [10, 11, 12, 13, 20, 21]
+  }
+]

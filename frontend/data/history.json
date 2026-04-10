@@ -1,0 +1,36 @@
+{
+  "user_001": [
+    { "amount": 1750, "hour": 9 },
+    { "amount": 2100, "hour": 10 },
+    { "amount": 1890, "hour": 11 },
+    { "amount": 1620, "hour": 12 },
+    { "amount": 2380, "hour": 19 },
+    { "amount": 1420, "hour": 8 },
+    { "amount": 1980, "hour": 20 },
+    { "amount": 2210, "hour": 18 },
+    { "amount": 1710, "hour": 13 },
+    { "amount": 2480, "hour": 19 },
+    { "amount": 1560, "hour": 10 },
+    { "amount": 2030, "hour": 11 },
+    { "amount": 1840, "hour": 12 },
+    { "amount": 1670, "hour": 9 },
+    { "amount": 2290, "hour": 20 }
+  ],
+  "user_002": [
+    { "amount": 2450, "hour": 10 },
+    { "amount": 2810, "hour": 11 },
+    { "amount": 2940, "hour": 12 },
+    { "amount": 2510, "hour": 13 },
+    { "amount": 3360, "hour": 20 },
+    { "amount": 2870, "hour": 21 },
+    { "amount": 2190, "hour": 11 },
+    { "amount": 2650, "hour": 12 },
+    { "amount": 3040, "hour": 13 },
+    { "amount": 3150, "hour": 20 },
+    { "amount": 2750, "hour": 10 },
+    { "amount": 2620, "hour": 11 },
+    { "amount": 2890, "hour": 12 },
+    { "amount": 2470, "hour": 21 },
+    { "amount": 3210, "hour": 20 }
+  ]
+}

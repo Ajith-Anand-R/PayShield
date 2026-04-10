@@ -1,0 +1,27 @@
+{
+  "nodes": [
+    { "id": "user_001", "label": "Anika Rao", "type": "user" },
+    { "id": "user_002", "label": "Raghav S", "type": "user" },
+    { "id": "device_iphone_14", "label": "Known iPhone", "type": "device" },
+    { "id": "device_macbook_air", "label": "Known MacBook", "type": "device" },
+    { "id": "device_pixel_8", "label": "Known Pixel", "type": "device" },
+    { "id": "device_unknown_x", "label": "Unknown Device", "type": "device" },
+    { "id": "merchant_local_grocery", "label": "Local Grocery", "type": "merchant" },
+    { "id": "merchant_electro_mall", "label": "Electro Mall", "type": "merchant" },
+    { "id": "merchant_shell_92", "label": "Shell Merchant 92", "type": "merchant", "fraud": true },
+    { "id": "account_mule_77", "label": "Mule Account 77", "type": "account", "fraud": true },
+    { "id": "device_blacklist_9", "label": "Blacklisted Device 9", "type": "device", "fraud": true }
+  ],
+  "edges": [
+    ["user_001", "device_iphone_14"],
+    ["user_001", "device_macbook_air"],
+    ["user_001", "merchant_local_grocery"],
+    ["user_002", "device_pixel_8"],
+    ["user_002", "merchant_electro_mall"],
+    ["user_002", "account_mule_77"],
+    ["account_mule_77", "merchant_shell_92"],
+    ["merchant_shell_92", "device_blacklist_9"],
+    ["device_unknown_x", "device_blacklist_9"],
+    ["device_unknown_x", "merchant_shell_92"]
+  ]
+}
